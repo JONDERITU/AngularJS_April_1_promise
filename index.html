@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Promise in Angular</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+<div ng-app>
+  <div ng-controller="PromiseCtrl">
+      <h2>$http.get()</h2>
+      <h3>Example 1 : The promise object returned by $http.get()</h3>
+      <p>{{example1}}</p>
+      <h3>Example 2 : Success callback with then()</h3>
+      <p>{{example2}}</p>
+      <h3>Example 3 : Error callback with then()</h3>
+      <p>{{example3}}</p>
+      <h3>Example 4 : Success callback with success()</h3>
+      <p>{{example4}}</p>
+      <h3>Example 5 : Error callback with error()</h3>
+      <p>{{example5}}</p>
+      <h3>Example 6 : Error callback with catch()</h3>
+      <p>{{example6}}</p>
+      <h3>Example 7 : Success callback followed by finally()</h3>
+      <p>{{example7}}</p>
+      <h3>Example 8 : Error callback followed by finally()</h3>
+      <p>{{example8}}</p>
+  </div>
+</div>
+
+</body>
+</html>
